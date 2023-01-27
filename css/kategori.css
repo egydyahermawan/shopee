@@ -1,0 +1,47 @@
+.kategori{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.kategori-wrap{
+    background-color: white;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kategori-title{
+    margin-right: auto;
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+.cards-box{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 0.5px solid #f2f2f2;
+    width: 120px;
+    box-sizing: border-box;
+    height: 120px;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px 0px #f2f2f2;
+}
+
+.card img{
+    width: 83px;
+}
+
+.card span{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
